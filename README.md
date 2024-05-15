@@ -24,6 +24,9 @@ Note: So that we can create a random sudoku each time, we must shuffle the numbe
 Please play at the above link and try to come up with a solution? Average time to solve the puzzle is 20 minutes.
 
 # Play the game on the Terminal: 
+  Make sure you have a compiler to compile the files. 
+  
   To generate the game on the terminal, clone this repository into your local computer. 
   Then compile using g++ -o main SudokuSolver.cpp -std=c++11
+  you can use clang for compiling instead of gcc.
   now type ./main and get the new board to play with. 
